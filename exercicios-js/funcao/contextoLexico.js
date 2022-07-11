@@ -1,10 +1,10 @@
 const valor = 'Global'
 
-function minhaFuncao(){
+function minhaFuncao() {
     console.log(valor)
 }
 
-function exec(){
+function exec() {
     const valor = 'Local'
     minhaFuncao()
 }

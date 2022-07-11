@@ -1,6 +1,6 @@
 const pessoa = {
     saudacao: 'Bomd dia!',
-    falar(){
+    falar() {
         console.log(this.saudacao)
     }
 }

@@ -1,14 +1,14 @@
-function area(largura, altura){
-    const area = largura*altura
-    if(area>20){
+function area(largura, altura) {
+    const area = largura * altura
+    if (area > 20) {
         console.log(`Valor acima do permitido: ${area}m2`)
-    } else{
+    } else {
         return area
     }
 }
 
-console.log(area(2,5))
+console.log(area(2, 5))
 console.log(area(2))
 console.log(area())
-console.log(area(2,5,10)) //pego só os dois primeiros
-console.log(area(5,5))
+console.log(area(2, 5, 10)) //pego só os dois primeiros
+console.log(area(5, 5))

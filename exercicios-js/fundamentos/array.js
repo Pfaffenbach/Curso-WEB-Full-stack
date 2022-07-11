@@ -8,7 +8,7 @@ console.log(valores[4])
 
 console.log(valores.length) // vendo o tamanho do array
 
-valores.push({id:3}, false, null, 'teste') // push adiciona novos valores no array, pode misturar dados no array
+valores.push({ id: 3 }, false, null, 'teste') // push adiciona novos valores no array, pode misturar dados no array
 console.log(valores)
 
 console.log(valores.pop()) // exclui o ultimo item do array

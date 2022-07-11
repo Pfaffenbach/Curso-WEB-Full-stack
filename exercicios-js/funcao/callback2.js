@@ -18,11 +18,11 @@ console.log(notasBaixas2)
 
 console.log("-------------------------")
 
-const notasBaixas3 = notas.filter(nota => nota<7)
+const notasBaixas3 = notas.filter(nota => nota < 7)
 console.log(notasBaixas3)
 
 console.log("-------------------------")
 
-const notasMenorQue7 = nota => nota<7
+const notasMenorQue7 = nota => nota < 7
 const notasBaixas4 = notas.filter(notasMenorQue7)
 console.log(notasBaixas4)

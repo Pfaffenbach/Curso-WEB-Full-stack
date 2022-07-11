@@ -1,4 +1,4 @@
-function escolherCarro (modelo) {
+function escolherCarro(modelo) {
     switch (modelo) {
         case 'hatch':
             return 'Compra efetuada com sucesso.'

@@ -1,4 +1,4 @@
-function venderFruta (fruta) {
+function venderFruta(fruta) {
     switch (fruta) {
         case 'maçã':
             console.log('Não vendemos esta fruta aqui.')

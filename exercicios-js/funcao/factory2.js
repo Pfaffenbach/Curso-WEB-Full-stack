@@ -1,5 +1,5 @@
-function criarProduto(nomeProd, precoProd){
-    return{
+function criarProduto(nomeProd, precoProd) {
+    return {
         nome: nomeProd,
         preco: precoProd,
         desconto: 0.1

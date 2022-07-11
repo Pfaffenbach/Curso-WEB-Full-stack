@@ -7,13 +7,13 @@ const pessoa = {
     }
 }
 
-const { nome, idade} = pessoa
+const { nome, idade } = pessoa
 console.log(nome, idade)
 
-const { nome: n, idade: i} = pessoa
-console.log(n,i)
+const { nome: n, idade: i } = pessoa
+console.log(n, i)
 
-const {sobrenome, bemHumorado = true} = pessoa
+const { sobrenome, bemHumorado = true } = pessoa
 console.log(sobrenome, bemHumorado)
 
 const { endereco: { logradouro, numero, cep } } = pessoa

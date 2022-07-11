@@ -1,7 +1,7 @@
-const funcs=[]
+const funcs = []
 
-for(var i=1; i<10; i++){
-    funcs.push(function(){
+for (var i = 1; i < 10; i++) {
+    funcs.push(function () {
         console.log(i)
     })
 }
